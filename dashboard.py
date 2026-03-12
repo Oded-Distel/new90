@@ -14,7 +14,7 @@ def build_sample_sales_data(seed: int = 7) -> pd.DataFrame:
     start = (dt.date.today() - dt.timedelta(days=364))
     dates = [start + dt.timedelta(days=int(i)) for i in range(365)]
 
-    products = ["Starter", "Pro", "Business", "Enterprise"]
+    products = ["Starter2", "Pro", "Business", "Enterprise"]
     regions = ["North", "South", "Center", "International"]
     channels = ["Web", "Partner", "Direct"]
 
